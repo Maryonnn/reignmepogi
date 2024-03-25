@@ -1,9 +1,10 @@
-import PSidebar from './PSidebar.js';
+import PNavbar from './PNavbar.js';
+import '../Styles/PDashboard.css';
 
 function PDashboard() {
     return(
         <>
-            <PSidebar />
+            <PNavbar />
         </>
     );
 }

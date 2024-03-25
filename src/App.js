@@ -1,6 +1,5 @@
 import { Routes,Route } from 'react-router-dom';
 import Login from './Auth/Login.js';
-import Register from './Auth/Register.js';
 import PDashboard from './Personnel/PDashboard.js';
 
 function App() {
@@ -8,8 +7,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/personnel-dashboard" element={<PDashboard />} />
+        <Route path="/pdashboard" element={<PDashboard />} />
       </Routes>
     </>
   );

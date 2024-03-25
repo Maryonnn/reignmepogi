@@ -8,6 +8,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import InputGroup from 'react-bootstrap/InputGroup';
+// import 'react-toastify/dist/ReactToastify.css';
 import { PiChalkboardTeacherFill } from "react-icons/pi";
 import { PiStudentFill } from "react-icons/pi";
 import { RiTeamFill } from "react-icons/ri";
